@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-  </div>
+  <v-app>
+    <h1 class="font-bold text-2xl p-6">Hello</h1>
+  </v-app>
 </template>
 
 <script>
