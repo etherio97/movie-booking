@@ -1,7 +1,7 @@
 <template>
-  <v-app>
+  <v-container>
     <h1 class="font-bold text-2xl p-6">Hello</h1>
-  </v-app>
+  </v-container>
 </template>
 
 <script>
