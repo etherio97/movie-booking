@@ -7,7 +7,12 @@ import "./index.css";
 
 Vue.config.productionTip = false;
 
+const config = {
+  STRIPE_PUBLISHER_KEY: "pk_test_0etbslYdC2UPruuh3uLZgSut",
+};
+
 new Vue({
+  data: { config },
   vuetify,
   router,
   render: (h) => h(App),
