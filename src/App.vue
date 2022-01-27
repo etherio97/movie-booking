@@ -3,10 +3,7 @@
     <!-- Navigation -->
     <v-navigation-drawer app v-model="drawer">
       <v-list nav dense>
-        <v-list-item-group
-          v-model="group"
-          active-class="deep-purple--text text--accent-4"
-        >
+        <v-list-item-group active-class="deep-purple--text text--accent-4">
           <v-list-item
             :to="item.to"
             v-for="(item, index) in navItems"
@@ -49,11 +46,6 @@ export default {
         icon: "mdi-home",
         title: "Home",
         to: "/",
-      },
-      {
-        icon: "mdi-account",
-        title: "About",
-        to: "/about",
       },
     ],
   }),
